@@ -1,0 +1,23 @@
+﻿@model MvcApplication14.Models.Directory
+
+
+    <div class="container dir_view" ng-controller="dir_view">
+        <table class="col-md-4 table table-bordered table-condensed counts-table" >
+            <thead>
+                <tr>
+                    <th> <10Mb</th>
+                    <th>10Mb-50Mb</th>
+                    <th>100Mb< </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ directory.SmallFilesCount }}</td>
+                    <td>{{ directory.MediumFilesCount }}</td>
+                    <td>{{ directory.LargeFilesCount }}</td>
+                </tr>
+            </tbody>
+        </table>
+       
+    </div>
+</div>
